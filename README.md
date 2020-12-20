@@ -40,6 +40,3 @@ https://github.com/monologg/KoBERT-Transformers.git
 
 #### SKT/Brain KoBERT모델
 https://github.com/SKTBrain/KoBERT
-
-#### S/W Membership json파일 불러오기
-https://www.secmem.org/blog/2020/07/19/Sentiment-Analysis/
