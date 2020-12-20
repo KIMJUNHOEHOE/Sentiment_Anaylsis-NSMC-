@@ -3,7 +3,7 @@ Transformers library에 배포된 monologg님의 Koelectra 모델을 활용한 �
 
 ## 실행방법
 
-0. src/final 폴더의 '감성분석모델_v4_koelectra_submit_best(nopreprocess).py' 복사
+0. src/final 폴더의 'koelectra_v1_submit_best(nopreprocess).py' 복사
 혹은 
 https://colab.research.google.com/drive/1wgp-K9dxhpJZl4ZUkJf1MkeaCg8qiUel?usp=sharing 실행
 1. 구글 colab에서 실행하는 것을 권고(아래 방법은 구글 colab 실행 기준)
