@@ -1,5 +1,5 @@
 # KoElectra_Sentiment_Anaylsis-NSMC-
-monolog님의 Koelectra 모델을 활용한 네이버리뷰 감성평가 모델
+Transformers library에 배포된 monologg님의 Koelectra 모델을 활용한 네이버리뷰 감성평가 모델
 
 ## 실행방법
 
