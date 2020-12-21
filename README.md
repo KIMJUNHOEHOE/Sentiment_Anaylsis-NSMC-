@@ -3,7 +3,7 @@ Transformers library에 배포된 monologg님의 Koelectra 모델을 활용한 �
 
 ## 실행방법
 
-0. src/final 폴더의 '감성분석모델_v4_koelectra_submit_best(nopreprocess).py' 복사
+0. src/final 폴더의 'koelectra_v1_submit_best(nopreprocess).py' 복사
 혹은 
 https://colab.research.google.com/drive/1wgp-K9dxhpJZl4ZUkJf1MkeaCg8qiUel?usp=sharing 실행
 1. 구글 colab에서 실행하는 것을 권고(아래 방법은 구글 colab 실행 기준)
@@ -15,7 +15,7 @@ https://colab.research.google.com/drive/1wgp-K9dxhpJZl4ZUkJf1MkeaCg8qiUel?usp=sh
 
 ## 모델별 실행결과
 - src 폴더의 여러 모델 성능은 아래와 같음
-- scr/trial 폴더의 '감성분석모델_v4_koelectra_submit_preprocess.py'의 경우 전처리를 진행하였지만 오히려 성능이 낮아짐
+- scr/trial 폴더의 'koelectra_v3_submit_preprocess.py'의 경우 전처리를 진행하였지만 오히려 성능이 낮아짐
 => 전처리를 진행한 corpus로 PTM을 만들었을 경우 더 좋은 성능을 가질 것으로 예상
 
 ![image](https://user-images.githubusercontent.com/43465126/102708335-9cc48180-42e5-11eb-967e-e50f3b2b9bf5.png)
@@ -40,6 +40,3 @@ https://github.com/monologg/KoBERT-Transformers.git
 
 #### SKT/Brain KoBERT모델
 https://github.com/SKTBrain/KoBERT
-
-#### S/W Membership json파일 불러오기
-https://www.secmem.org/blog/2020/07/19/Sentiment-Analysis/
