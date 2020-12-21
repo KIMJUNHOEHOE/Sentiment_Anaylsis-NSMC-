@@ -167,13 +167,13 @@ for seq in input_ids_test:
 train_inputs, validation_inputs, train_labels, validation_labels = train_test_split(input_ids_train,
                                                                                     labels_train, 
                                                                                     random_state=2020,
-                                                                                    test_size=0.1)
+                                                                                    test_size=0.3)
 
 # 어텐션 마스크 분리
 train_masks, validation_masks, _, _ = train_test_split(attention_masks_train, 
                                                        input_ids_train,
                                                        random_state=2020, 
-                                                       test_size=0.1)
+                                                       test_size=0.3)
 
 # 파이토치의 텐서로 변환
 # train, validaiton set
